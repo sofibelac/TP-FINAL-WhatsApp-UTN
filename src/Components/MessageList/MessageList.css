@@ -1,0 +1,30 @@
+.message-list{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+.message-list__container{
+  display: flex;
+  padding: 32px 20px 0 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  align-self: stretch;
+  overflow-y: scroll;
+}
+
+.message-list__container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.message-list__container::-webkit-scrollbar-thumb {
+  background-color: #9F9F9F;
+  border-radius: 3px;
+}
+
+.message-list__container::-webkit-scrollbar-track {
+  background-color: #2E2E2E;
+}

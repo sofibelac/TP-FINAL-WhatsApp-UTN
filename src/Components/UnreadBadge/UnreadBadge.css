@@ -1,0 +1,13 @@
+.unread-badge{
+    display: flex;
+    font-size: 10px;
+    width: 17px;
+    height: 17px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 100px;
+    background-color: #1DAA61;
+    color: beige;
+}

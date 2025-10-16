@@ -1,0 +1,24 @@
+.homescreen {
+  background-color: #1d1f1f;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  overflow: hidden;
+  max-width: 100vw;
+}
+
+
+.homescreen__main {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .homescreen__main {
+    display: none;
+  }
+}
+

@@ -1,0 +1,13 @@
+.message-status{
+    display: inline-flex;
+    align-items: center;
+    color: #B0B0B0;
+}
+
+.message-status__icon {
+  display: block;
+}
+
+.message-status--read{
+    color: #34B7F1;
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import MessageScreen from './Screens/MessageScreen/MessageScreen'
 import HomeScreen from './Screens/HomeScreen/HomeScreen'
 import { Route, Routes } from 'react-router-dom'
-import './global.css'
+import './Styles/global.css'
 
 function App() {
   return(

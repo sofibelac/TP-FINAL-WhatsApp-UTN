@@ -14,6 +14,11 @@ html, body, #root {
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  height: 100vh;
+  height: 100dvh;
 }
 
 a {

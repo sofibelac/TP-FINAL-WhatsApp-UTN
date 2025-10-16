@@ -1,4 +1,4 @@
-.message-form{
+.message-form {
   display: flex;
   padding: 14px 15px;
   align-items: center;
@@ -6,6 +6,11 @@
   justify-content: space-between;
   box-sizing: border-box;
   background-color: #2C2C2C;
+  flex-shrink: 0;
+  min-height: 60px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
 }
 
 .message-form__container{
